@@ -3,9 +3,9 @@ name = "ft_package"
 version = "0.0.1"
 description = "String Operations"
 authors = [
-  {name = "nali", email = "nali@student.42.ae"}
+  {name = "nali"}, {email = "nali@student.42.ae"}
 ]
-license = {file = "LICENSE"}
+license = {text = "MIT"}
 classifiers = [
     'Programming Language :: Python :: 3',
     'License :: OSI Approved :: MIT License',
