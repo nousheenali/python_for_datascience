@@ -1,0 +1,12 @@
+[project]
+name = "ft_package"
+version = "0.0.1"
+description = "String Operations"
+authors = [
+  {name = "nali", email = "nali@student.42.ae"}
+]
+license = {file = "LICENSE"}
+
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
