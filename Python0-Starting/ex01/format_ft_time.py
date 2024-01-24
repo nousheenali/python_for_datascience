@@ -12,7 +12,7 @@ import time
 # Epoch time (POSIX time or UNIX time) is a time from which the computer measures system time.
 # In most UNIX versions, the epoch time starts at 00:00:00 UTC on 1 January 1970.
 seconds = time.time() #returns the current time in seconds since the epoch
-print("Seconds since January 1, 1970: {:,} or {:.2e} in scientific notation".format(seconds, seconds))
+print(f'Seconds since January 1, 1970: {seconds:,} or {seconds:.2e} in scientific notation')
 
 date = dt.now()
 months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct',
