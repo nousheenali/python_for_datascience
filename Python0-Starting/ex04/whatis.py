@@ -6,7 +6,7 @@ try:
         len += 1
 
     if len == 1: # No argument provided
-        exit()
+        exit(1)
 
     # In assert statement, if condition is true, nothing happens and if condition is false, AssertionError is raised.
     assert len <= 2  , "more than one argument is provided"

@@ -29,6 +29,7 @@ def main():
         green = ft_green(array)
         blue = ft_blue(array)
         grey = ft_grey(array)
+        print(ft_invert.__doc__)
 
         titles = [
             "Original",
@@ -45,7 +46,7 @@ def main():
         print(type(e).__name__ + ":", e)
         exit(1)
     except KeyboardInterrupt:
-        exit(1)
+        exit(0)
 
 
 if __name__ == "__main__":

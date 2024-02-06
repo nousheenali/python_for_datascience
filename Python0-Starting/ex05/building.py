@@ -52,9 +52,10 @@ def main():
 
     except Exception as e:
         print(type(e).__name__+":", e)
+        exit(1)
     except KeyboardInterrupt:
         print("\nExiting...")
-        exit()
+        exit(0)
 
 
 if __name__ == "__main__":
