@@ -36,10 +36,3 @@ class calculator:
             print(self.vector)
         except ValueError as e:
             print(type(e).__name__+":", e)
-
-
-"""
-NOTE1:
-    *args and **kwargs in Python
-    https://www.geeksforgeeks.org/args-kwargs-python/
-"""
